@@ -1,0 +1,35 @@
+.About{
+    position: relative;
+    left: 18rem;
+    width: 77%;
+    padding-top: 2rem;
+
+   
+
+}.About1{
+    display: flex;
+    padding: 1rem;
+    gap: 1rem;
+    flex-direction: row; 
+}.title-left,.title-right{
+    /* width: 50%; */
+}.Quran{
+    color: red;
+
+}.imgabout,.imged{
+    width: 20vw;
+}.imgabout img,.imged img {
+width: 100%;
+}@media screen and (max-width:1200px) {
+    .About{
+        position: relative;
+        left: 0rem;
+        width: 100%;
+        padding-top: 2rem;
+    }.About1{
+        display: flex;
+        flex-direction: column-reverse;
+        width: 100%;
+
+    }
+}
