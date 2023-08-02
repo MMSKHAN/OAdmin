@@ -9,6 +9,8 @@ import Blog from './Component/Blog/Blog';
 import Services from './Component/Services/Services';
 import Contact from './Component/Contact/Contact';
 import AdminPic from './Component/Adminpic/AdminPic';
+import Login from './Component/Login/Login';
+import ForgotPass from './Component/Login/ForgotPass';
 function App() {
   return (
     <BrowserRouter>
@@ -22,6 +24,8 @@ function App() {
      <Route exect path="/Blog"element={< Blog />}/>
      <Route exect path="/Contact"element={< Contact/>}/>
      <Route exect path="/AdminPic"element={< AdminPic/>}/>
+     <Route exect path="/Login"element={< Login/>}/>
+     <Route exect path="/ForgotPass"element={< ForgotPass/>}/>
     </Routes>
     </BrowserRouter>
   )

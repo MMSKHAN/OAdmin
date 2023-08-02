@@ -5,6 +5,8 @@ import AboutPart2 from './AboutPart2';
 import AboutPart3 from './AboutPart3';
 import AboutPart4 from './AboutPart4';
 import AboutPart5 from './AboutPart5';
+import AboutPart6 from './AboutPart6';
+import AboutPart7 from './AboutPart7';
 function About() {
   return (
    <>
@@ -20,12 +22,20 @@ function About() {
 <AboutPart3/>
 </div>
 <div className="Carosel">
+  <h1 style={{textAlign:"center",color:"green",marginRight:"5rem" }}  > Background image  </h1>
+<AboutPart6/>
+</div>
+<div className="Carosel">
   <h1 style={{textAlign:"center",color:"green",marginRight:"5rem" }}  > projects   </h1>
 <AboutPart4/>
 </div>
 <div className="Carosel">
   <h1 style={{textAlign:"center",color:"green",marginRight:"5rem" }}  > LifeStyle   </h1>
 <AboutPart5/>
+</div>
+<div className="Carosel">
+  <h1 style={{textAlign:"center",color:"green",marginRight:"5rem" }}  > Background image </h1>
+<AboutPart7/>
 </div>
 
 </div>

@@ -30,6 +30,9 @@ const NavArray=[
     to:"/Logout",
     icon:<BoxArrowLeft/>
 },
+{name:"Login",
+    to:"Login"
+}
   
 ]
 export default NavArray
